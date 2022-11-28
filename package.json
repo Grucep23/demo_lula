@@ -1,0 +1,25 @@
+{
+  "name": "demo_lula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grucep23/demo_lula.git"
+  },
+  "keywords": [
+    "lulaflower"
+  ],
+  "author": "grucep23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grucep23/demo_lula/issues"
+  },
+  "homepage": "https://github.com/Grucep23/demo_lula#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
