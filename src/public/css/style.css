@@ -40,3 +40,28 @@ body {
     cursor: pointer;
     margin-top: 16px;
 }
+
+.update-user-container {
+    padding: 16px;
+    text-align: center;
+}
+
+.update-user-container label {
+    display: block;
+}
+
+.upload-file-container {
+    padding: 16px;
+}
+
+.upload-file-container label {
+    display: block;
+}
+
+.upload-file-container label {
+    display: block;
+}
+
+hr {
+    border-top: 3px solid #eee !important;
+}

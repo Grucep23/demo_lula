@@ -2,6 +2,7 @@
 import express from 'express';
 import configViewEngine from './configs/viewEngine';
 import webRouter from './routes/web';
+import APIRouter from './routes/API';
 import connection from './configs/connectDB';
 
 const app = express();
@@ -15,6 +16,8 @@ configViewEngine(app);
 
 //init webRouter
 webRouter(app);
+
+APIRouter(app);
 
 
 app.listen(port, () => {
